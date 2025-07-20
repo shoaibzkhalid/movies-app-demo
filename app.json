@@ -19,9 +19,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
@@ -30,9 +28,7 @@
     },
     "android": {
       "softwareKeyboardLayoutMode": "pan",
-      "permissions": [
-        "NOTIFICATIONS"
-      ],
+      "permissions": ["NOTIFICATIONS"],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -41,7 +37,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "2e074752-6953-4901-966b-849e31581a77"
+        "projectId": "35ae6491-224d-48be-a142-d325c5579d03"
       }
     }
   }
