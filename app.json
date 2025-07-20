@@ -19,7 +19,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
@@ -28,10 +30,18 @@
     },
     "android": {
       "softwareKeyboardLayoutMode": "pan",
-      "permissions": ["NOTIFICATIONS"],
+      "permissions": [
+        "NOTIFICATIONS"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.shoaibzkhalid.tentwentydemo"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2e074752-6953-4901-966b-849e31581a77"
       }
     }
   }
